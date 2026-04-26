@@ -1,0 +1,82 @@
+<!-- Master Wrapper: Controls the gradient scroll -->
+<!-- Solid blue until 20% down, transitions in the middle, becomes solid pink at 80% down -->
+<div class="w-full bg-gradient-to-b from-[#E4F5FF] from-[20%] to-[#FFE0D8] to-[80%]">
+
+  <!-- =============================== -->
+  <!-- 1. HERO SECTION (Solid Blue)    -->
+  <!-- =============================== -->
+  <section class="relative w-full pt-32 lg:pt-48 pb-16 flex flex-col lg:flex-row items-center min-h-[90vh] overflow-hidden">
+    
+    <!-- Left Content (Text) -->
+    <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex justify-start">
+      <div class="w-full max-w-[500px] lg:max-w-[550px] lg:pr-8">
+        <h1 class="text-4xl sm:text-5xl lg:text-[4rem] font-serif font-bold text-[#0c2340] leading-[1.1]">
+          Welcome to GD & Co.
+        </h1>
+        <p class="mt-6 lg:mt-8 text-slate-700 leading-relaxed text-lg sm:text-[1.1rem]">
+          We are a long established firm of lawyers providing Manitobans with legal advice & services for your business & personal life.
+        </p>
+      </div>
+    </div>
+
+    <!-- Right Content (Split Bleed Image) -->
+    <div class="relative w-full h-[400px] sm:h-[500px] lg:h-auto mt-12 lg:mt-0 lg:absolute lg:right-0 lg:top-[8%] lg:bottom-[8%] lg:w-[48vw] xl:w-[46vw] z-0 flex flex-col justify-center">
+      <div class="absolute inset-y-0 right-0 w-[92%] lg:w-full bg-[#e3eff7] rounded-l-[3rem] lg:rounded-l-[5rem] rounded-r-none shadow-sm z-0"></div>
+      <img 
+        src="/hero-mat.png" 
+        alt="Welcome Mat" 
+        class="relative w-full h-full max-h-[85%] object-contain object-right z-10 drop-shadow-sm pointer-events-none" 
+      />
+    </div>
+
+  </section>
+
+
+  <!-- =============================== -->
+  <!-- 2. MASSIVE SCROLL TRANSITION    -->
+  <!-- =============================== -->
+  <!-- This empty div creates the long "Image 2" gradient scroll area -->
+  <div class="w-full h-[50vh] lg:h-[85vh] pointer-events-none"></div>
+
+
+  <!-- =============================== -->
+  <!-- 3. SERVICES SECTION (Solid Pink)-->
+  <!-- =============================== -->
+  <!-- Padding bottom ensures the pink continues past the cards -->
+  <section id="section-trigger" class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-32 lg:pb-64 relative z-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
+      
+      <!-- For Individuals -->
+      <div class="flex flex-col items-center">
+        <h2 class="text-3xl lg:text-4xl font-serif font-bold mb-6 lg:mb-10 text-[#0c2340]">
+          For Individuals
+        </h2>
+        <!-- Card Background: Darker muted tone to match your 3rd screenshot -->
+        <div class="w-full bg-[#EAD0C8] rounded-[2.5rem] lg:rounded-[3rem] h-[350px] sm:h-[400px] lg:h-[450px] flex items-center justify-center p-8 lg:p-12 shadow-sm overflow-hidden">
+          <img 
+            src="/services-individuals.png" 
+            alt="Services for Individuals" 
+            class="w-full h-full object-contain object-center drop-shadow-sm" 
+          />
+        </div>
+      </div>
+
+      <!-- For Business -->
+      <div class="flex flex-col items-center">
+        <h2 class="text-3xl lg:text-4xl font-serif font-bold mb-6 lg:mb-10 text-[#0c2340]">
+          For Business
+        </h2>
+        <!-- Card Background: Darker muted tone to match your 3rd screenshot -->
+        <div class="w-full bg-[#EAD0C8] rounded-[2.5rem] lg:rounded-[3rem] h-[350px] sm:h-[400px] lg:h-[450px] flex items-center justify-center p-8 lg:p-12 shadow-sm overflow-hidden">
+          <img 
+            src="/services-business.png" 
+            alt="Services for Business" 
+            class="w-full h-full object-contain object-center drop-shadow-sm" 
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>

@@ -1,0 +1,158 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Services from '../components/Services.astro';
+import About from '../components/About.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+---
+
+
+<Layout title="GD & Co. | Lawyers and Notaries">
+  <div class="min-h-screen font-sans overflow-x-hidden bg-[linear-gradient(to_bottom,#E4F5FF_0%,#E4F5FF_700px,#FFE0D8_1100px,#FFE0D8_85%,#E4F5FF_100%)]">
+    <Header />
+    <main>
+      
+
+  <!-- =============================== -->
+  <!-- 2. PERSONAL SERVICES HERO       -->
+  <!-- =============================== -->
+  <!-- Different from the home page, this is a clean, centered hero that blends blue into pink -->
+  <section class="w-full pt-40 lg:pt-56 pb-20 lg:pb-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#CEE7F6] to-[#FFE0D8] flex flex-col items-center text-center">
+    <h1 class="text-4xl sm:text-5xl lg:text-[4rem] font-serif font-bold text-[#0c2340] leading-[1.1] max-w-4xl">
+      Protecting what matters most in your personal life.
+    </h1>
+    <p class="mt-6 lg:mt-8 text-slate-700 leading-relaxed text-lg sm:text-xl max-w-2xl">
+      From buying your first home to planning your estate, our experienced team provides tailored, compassionate legal advice for you and your family.
+    </p>
+  </section>
+
+
+      <div id="section-trigger">
+        <!-- =============================== -->
+  <!-- 3. SERVICES 3x3 GRID SECTION    -->
+  <!-- =============================== -->
+  <!-- The background here is solid pink to continue from the hero gradient -->
+  <section class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-32">
+    
+    <!-- Section Title matching your Figma design -->
+    <h2 class="text-4xl lg:text-5xl font-serif font-bold text-center mb-16 lg:mb-24 text-[#b37363]">
+      For Personal Services
+    </h2>
+
+    <!-- The Grid: 1 col on mobile, 2 on tablet, 3 on desktop -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16 lg:gap-y-24">
+      
+      <!-- Item 1 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/residential-realestate.png" alt="Residential Realestate" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Residential Realestate</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/purchase-home.png" alt="Purchase a Home" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Purchase a Home</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/selling-home.png" alt="Selling Your Home" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Selling Your Home</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/refinancing.png" alt="Refinancing" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Refinancing</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/estate-planning.png" alt="Lifetime & Estate Planning" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Lifetime & Estate Planning</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/last-will.png" alt="Last Will & Testament" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Last Will & Testament</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 7 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/power-of-attorney.png" alt="Power of Attorney" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Power of Attorney</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 8 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/healthcare-directive.png" alt="Healthcare Directive" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Healthcare Directive</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+      <!-- Item 9 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full h-48 lg:h-56 flex items-center justify-center mb-6">
+          <img src="/personal/notarial-services.png" alt="Notarial Services" class="max-w-full max-h-full object-contain drop-shadow-sm" />
+        </div>
+        <h3 class="text-2xl font-serif font-bold text-[#0c2340] mb-3">Notarial Services</h3>
+        <p class="text-slate-700 text-sm leading-relaxed max-w-[260px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat finibus dolor.
+        </p>
+      </div>
+
+    </div>
+  </section>
+      </div>
+    </main>
+    <Footer />
+  </div>
+</Layout>
+
+
+  
+
+</div>
+
